@@ -12,3 +12,8 @@ lib/String/Slice/Inline.pm
 t/release-pod-syntax.t
 t/test.t
 inc/String/Slice/Inline.pm
+inc/Inline.pm
+inc/Inline/denter.pm
+inc/Inline/Module.pm
+inc/Inline/C.pm
+inc/Inline/C/Parser/RegExp.pm
