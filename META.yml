@@ -1,28 +1,27 @@
 ---
 abstract: 'Shared Memory Slices of Bigger Strings'
 author:
-  - 'Ingy döt Net (ingy) <ingy@cpan.org>'
-build_requires:
-  Devel::PPPort: 3.19
-  ExtUtils::MakeMaker: 6.36
+  - 'Ingy döt Net <ingy@cpan.org>'
+build_requires: {}
 configure_requires:
-  Devel::PPPort: 3.19
-  ExtUtils::MakeMaker: 6.36
-  ExtUtils::ParseXS: 2.21
-distribution_type: module
-dynamic_config: 1
-generated_by: 'Module::Install version 1.06'
+  ExtUtils::MakeMaker: '0'
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: String-Slice
 no_index:
   directory:
     - inc
     - t
+    - xt
+    - example
 requires:
-  XSLoader: 0.02
+  perl: v5.8.1
 resources:
-  license: http://dev.perl.org/licenses/
-version: 0.01
+  bugtracker: https://github.com/ingydotnet/string-slice-pm/issues
+  homepage: https://github.com/ingydotnet/string-slice-pm
+  repository: https://github.com/ingydotnet/string-slice-pm.git
+version: '0.02'
