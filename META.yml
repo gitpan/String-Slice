@@ -24,4 +24,4 @@ resources:
   bugtracker: https://github.com/ingydotnet/string-slice-pm/issues
   homepage: https://github.com/ingydotnet/string-slice-pm
   repository: https://github.com/ingydotnet/string-slice-pm.git
-version: '0.03'
+version: '0.04'

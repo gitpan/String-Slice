@@ -1,3 +1,7 @@
+0.04 Sat Jan  3 15:41:47 PST 2015
+ - Fix > 5.18 THINKFIRST issues.
+ - Patch - https://rt.cpan.org/Public/Ticket/Attachment/WithHeaders/757962
+
 0.03 Fri Jan  2 09:31:02 PST 2015
  - DZ:P:InlineModule needed a fix
  - bundle stuff was missing in inc
